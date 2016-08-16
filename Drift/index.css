@@ -1,0 +1,130 @@
+html{        
+  background-color:rgb(153, 194, 255); 
+  overflow-x:hidden;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+}
+header#headerBar{
+  z-index: 2;
+  position: fixed;
+  top:0;
+  background: rgba(0, 41, 102, 0.8);
+  height:60px;
+  width: 100%;
+  margin:0;
+}
+/*Top Navi Bar Content*/
+ul#headNav{
+  z-index: 3;
+  position: absolute;
+  right: 1px;
+  display: inline;
+  color: white;
+  font-size: 18px;
+}
+nav ul li {
+  display: inline-block;
+  color: white;
+  padding: 0px 30px 0px 0px;
+}
+nav ul li a{
+  color: white;
+}
+img#headLogo{
+  z-index: 2;
+  width:200px;
+  opacity: 1;
+}
+.Box{
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(0, 119, 179, 1);
+  top:100px;
+
+}
+#gameIntro{
+  position: relative;
+  width: 400px;
+  text-align: center;
+  height: 500px;
+  top:-520px;
+  left:-220px;
+
+}
+#playAgain{
+  font-size: 40px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+#playAgain:hover{
+  color: #33ccff ;
+  border-color: #33ccff;
+}
+#gameIntro h2{
+  font-size: 60px;
+}
+#design{
+  position: relative;
+  width:400px;
+  top: -474px;
+  left: -220px;
+}
+#challenges{
+  position: relative;
+  width:400px;
+  right: -220px;
+  top:-1226px;
+}
+#tech{
+  position: relative;
+  width:400px;
+  right: -220px;
+  top: -1190px;
+}
+#tech ul li a{
+  color: #0000cc;
+  font-size: 20px;
+}
+#tech ul{
+  list-style-type: none;
+}
+p{
+  color: #000;
+}
+h2{
+  text-align: center;
+  color: rgb(0, 31, 77);
+}
+.col-md-6 h3, {
+  position: relative;
+  font-size: 20px;
+}
+#figure8s{
+  position: relative;
+  top:-900px;
+}
+#figure8s h1{
+  font-size: 20px;
+}
+
+canvas {
+    position: relative;
+    border:1px solid #000;
+    background-color: #fff;;
+    top:1200px;
+    display: inline;
+}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {color: rgba(0, 119, 179, 1);}
+a:active {color: rgba(0, 119, 179, 1);}

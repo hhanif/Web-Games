@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+ <head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Brian's site </title>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <link href=" index.css" rel="stylesheet" type = "text/css">
+  </head>
+  <body onload="startGame()">
+    <header id="headerBar">
+          <nav id = "navList">
+              <a href="#" title="Return to the homepage" id="logo">
+              <img id ="headLogo" src ="images/e30Icon.png"></a>
+              <!--
+              <img id ="headLogo" src ="haris.png"></a>
+            -->
+            <ul id = "headNav">
+              <li><a href ="index.html">Home</a></li>
+              <li><a href ="http://people.ucsc.edu/~hhanif">Haris' Page</a></li>
+              <li><a href ="http://people.ucsc.edu/~bnguye54">Brian's Page</a></li>
+            </ul>
+          </nav>
+    </header>
+    <div id = "gameIntro" class = "Box">
+      <h2>Drift</h2>
+        <h3><u>Goal</u> </h3>
+        <p> Learn the basics of drifting by understanding angle control.</p>
+        <h3><u> How to play</u> </h3>
+        <p> Use <u>W A S D</u> to move your square and <u>B</u> to increase angles</p>
+        <h3><u> Objective</u> </h3>
+        <p> Try to drift figure 8 shapes around the 2 blue squares. If you hit a blue square, you die! Press 'Play' start!</p>
+        <a id = "playAgain"href= "#figure8s">Play</a></br>
+    </div>
+    <div id = "design" class = "Box">
+      <h3><u>Design Considerations</u> </h3>
+        <p> At first, we wanted to make our previous drinking game a little more customizable by allowing users/players to add to the list but we decided to start something new because we wanted to learn something different. Our past projects were either simple in design but focused on backend more or vice versa. For this project, we decided to emphasize more on the back end and then leave the front end pretty simple; not bad looking but simple...hopeufully... </p>
+    </div>
+    <div id = "challenges" class = "Box">
+      <h3><u>Challenges</u> </h3>
+        <p> We had a lot of trouble viewing all our objects when creating them. We knew they existed but we couldn't find out where they spawned. After trying a bunch of times and restarting constantly, we eventually realized we weren't spawning them because we had forgot to call them in the update method properly.</p><br/>
+        <p>Using StackedOverflow and w3Schools helped us solve a bunch of our problems. We tried asking other people up and down the hall that are CS majors but they weren't much help since they have their own projects to work on.</p>
+        <p>Marcelo asked me (Haris) to personalize this project, but I didn't really know how to. So instead, I found a way to automatically have the game restart when the user crashes. I thought that that was not only more useful, but in a way personal since I am terrible at video games and need to constantly restart games. I was also able to re-style the page since the last time I showed it to Marcelo during our section on wedensday. I re-styled it to allow everything to be alligned in the middle instead of it being offset to the edges.</p>
+    </div>
+    <div id = "tech" class = "Box">
+      <h3><u>Technology & Acknowledgements</u> </h3>
+      <ul>
+        <li><a href="http://people.ucsc.edu/~wmodes/art101/index.html"> Professor</a></li>
+        <li><a href="http://www.w3schools.com"> w3 Schools</a></li>
+        <li><a href="http://stackoverflow.com/">Stacked Overflow</a></li>
+      </ul>
+    </div>
+    <div id = "figure8s" class = "Box">
+      <h1>Figure 8's</h1>
+    </div>
+     </body>
+</html>
